@@ -1,1 +1,363 @@
 
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+   margin: 0px;
+   
+  }
+  
+  
+  
+  #navbar{
+    background-color:#0f1111;
+    height:60px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  #navlogo{
+    height: 56px;
+    width: 100px;
+  }
+  
+  #logo{
+    height: 56px;
+    background-size: cover;
+   background-image: url("https://www.hatchwise.com/wp-content/uploads/2022/05/amazon-logo-600x400.png.webp");
+   width: 100%;
+  }
+  
+  #navlogo{
+    border: 2px  solid transparent;
+  }
+  
+  #navlogo:hover{
+    border: 1px solid white;
+  }
+  /* box2 */
+  #address{
+    color:white;
+    margin-top: 0px;
+    margin-left: 10px;
+    
+  }
+  #address:hover{
+    border: 1px solid white;
+  
+  }
+  
+  #q{
+    font-size: 0.85rem;
+    color: #cccccc;
+    margin-left: 16px;
+    
+  }
+  #a{
+    font-size: 1rem;
+    color: #ffffff;
+    margin-left:5px;
+    font-weight: bold;
+  }
+  #addressa{
+    display: flex;
+   align-items: center;
+  }
+  #e{
+    margin-top: -4px;
+  }
+  #navsearch{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    margin-left: 20px;
+  }
+  #select{
+    background-color: #f3f3f3;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    width:50px;
+    text-align: center;
+    border: none;
+  }
+  #search{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+  }
+  #searchicon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: orange;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+  }
+  #signin{
+    font-size: 0.8rem;
+    
+  }
+  #one{
+    font-size: 1rem;
+    font-weight: bold;
+    
+  }
+  #return{
+    font-size: 0.8rem;
+  }
+  #signin:hover{
+    border: 1px solid white;
+  }
+  #return:hover{
+    border: 1px solid white;
+  }
+  #navsearch:hover{
+    border: 2px solid orange;
+  }
+  #cart{
+    display: flex;
+  }
+  #aa
+  {
+  font-size: 30px;
+  }
+  #bb{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+  #cart:hover{
+    border: 1px solid white;
+  }
+  #menubar{
+    height: 40px;
+    width:100%;
+  background-color: #253131;
+  display: flex;
+  color: white;
+  align-items: center;
+  text-decoration: none;
+  text-transform: none;
+  justify-content: space-evenly;
+  
+  }
+  #option{
+    display: flex;
+    width:70%;
+    font-size:14px;
+    margin-left: 10px ;
+  
+    
+  }
+  
+  
+  
+  #menuicon{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-left: 10px;
+    
+    
+  }
+  
+  a{
+    color: #f3f3f3;
+    margin-left: 15px;
+  }
+  #optionq{
+    display: flex;
+    justify-content: flex-end; 
+    font-size: 16px;
+    font-weight: 700;
+   width:220px ;
+   margin-left: 90px;
+  }
+  i{
+    margin-right: 5px;
+  }
+  /* hero */
+  #hero{
+    background-image:url("/71YTsbTxBsL._SX3000_.jpg") ;
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  #msg{
+    background-color: #ffffff;
+    color: black;
+    height: 40px;
+    width: 80%;
+   margin-bottom: 20px;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   display: flex; 
+  }
+  p{
+    text-align: center;
+  }
+  #qq{
+    color: rgba(118, 93, 211, 0.986);
+    margin: 0%;
+  }
+  /* shop */
+  .shop{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    flex-wrap: wrap;
+  }
+  .box{
+    height: 400px;
+    border: 2px solid black;
+    width: 23%;
+    background-color: #ffffff;
+    padding: 20px 0px 15px;
+    margin-top: 5px;
+    font-size: 14px;
+    flex-wrap: wrap;
+    
+  }
+  .boximage{
+    background-image: url("/71S+0nfVCAL._AC_SY200_.jpg");
+    height: 330px;
+  background-size: cover;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  }
+  .r{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .r p{
+    text-align: left;
+    color: rgba(118, 93, 211, 0.986);
+  }
+  .r h{
+    font-weight: bold;
+  }
+  .boximagea{
+  
+      background-image: url("/beauty.jpg");
+      height: 330px;
+    background-size: cover;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  .boximageb{
+    background-image: url("/laptop.jpg");
+    height: 330px;
+  background-size: cover;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  }
+  .boximagec{
+    background-image: url("/watchq.jpg");
+    height: 330px;
+  background-size: cover;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  }
+  .boximaged{background-image: url("/grocery.jpg");
+    height: 330px;
+  background-size: cover;
+  margin-bottom: 15px;
+  margin-top: 15px;}
+  .boximagee{background-image: url("/phone.jpg");
+    height: 330px;
+  background-size: cover;
+  margin-bottom: 15px;
+  margin-top: 15px;}
+  .boximagef{background-image: url("/baby\ careq.jpg");
+    height: 330px;
+  background-size: cover;
+  margin-bottom: 15px;
+  margin-top: 15px;}
+  .boximageg{background-image: url("/clothes.jpg");
+    height: 330px;
+  background-size: cover;
+  margin-bottom: 15px;
+  margin-top: 15px;}
+  
+  footer{
+    margin-top: 10px;
+  }
+  .footpanel1{
+    background-color: #37475a;
+    color: #ffffff;
+    width:100%;
+    height:50px;
+    text-align: center;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+  }
+  
+  .footpanel2{
+    background-color: #222f3d;
+    color: #ffffff;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+  
+  }
+  ul{
+    margin-top: 20px;
+  }
+  ul a{display: block;
+  font-size: 0.80rem;
+  margin-top: 10px;
+  text-align: left;
+  margin-left:0px;
+  }
+  .footpanel3{
+    background-color: #222f3d;
+    color: #ffffff;
+    border-top:0.5px solid white;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logow{
+    background-image: url("https://www.hatchwise.com/wp-content/uploads/2022/05/amazon-logo-600x400.png.webp");
+    height:50px;
+    background-size: cover;
+    width: 100px;
+  }
+  .footpanel4{
+    background-color: #0f1111;
+    color: white;
+   height: 80px;
+  }
+  .pages{
+    font-size: 0.8rem;
+    text-align: center;
+    padding-top: 20px;
+    
+  }
+  .copyright{
+    font-size: 0.8rem;
+   text-align: center;
+  padding-top: 10px;
+  }
+  
+  
+  
+  
